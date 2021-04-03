@@ -21,7 +21,7 @@ Shopping product / cart with PHP
 * Corriger le filtre `mark`
 * Travailler la partie graphique 
 * Ajuster le contenu responsif
-* Outil de recherhce ?
+* Outil de recherche ?
 * Site mutlilangue : version anglaise
 * Partie admin
 
