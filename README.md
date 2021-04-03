@@ -27,4 +27,8 @@ Shopping product / cart with PHP
 
 ## Screens
 
+Site quand le panier est vide :
+![](screens/emptycart.png)
 
+Quand le panier contient des produits :
+![](screens/cart.png)
