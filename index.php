@@ -202,7 +202,7 @@ if(isset($_GET["action"])){
                         </div>
                         <div class="choice">
                             <label>
-                                <input type="checkbox" class="common_selector brand" value="Rocky Mountain" name="Rocky Mountain"> Rocky Mountain
+                                <input type="checkbox" class="common_selector brand" value="RockyMountain" name="RockyMountain"> Rocky Mountain
                             </label>
                         </div>
                         <div class="choice">
@@ -243,10 +243,24 @@ if(isset($_GET["action"])){
                         }
                         $reponse = $bdd->query($query);
                     }
+
                     if(isset($_POST["mark"])) {
-                        $markfilter = $_POST["mark"];
-                        $query = "SELECT * FROM products WHERE category = '$markfilter'";
-                        $reponse = $bdd->query($query);
+                        if(isset($_POST["Rockrider"])) {
+                            $query = "SELECT * FROM products WHERE category = 'Rockrider'";
+                            $reponse = $bdd->query($query);
+                        }
+                        else {
+                            if(isset($_POST["Cube"])) {
+                                $query = "SELECT * FROM products WHERE category = 'Cube'";
+                                $reponse = $bdd->query($query);
+                            }
+                            else {
+                                if(isset($_POST["RockyMountain"])) {
+                                    $query = "SELECT * FROM products WHERE category = 'RockyMountain'";
+                                    $reponse = $bdd->query($query);
+                                }
+                            }
+                        }
                     }
 
 

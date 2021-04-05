@@ -18,7 +18,8 @@ Shopping product / cart with PHP
 
 ## Fonctionnalités à venir
 
-* Corriger le filtre `mark`
+* <del>Corriger le filtre `mark`</del> Optimiser le filtre `mark` 
+* Multi filtre utile ?
 * Travailler la partie graphique 
 * Ajuster le contenu responsif
 * Outil de recherche ?

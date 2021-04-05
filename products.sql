@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Apr 03, 2021 at 10:30 AM
+-- Generation Time: Apr 05, 2021 at 01:33 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
 
@@ -44,8 +44,8 @@ CREATE TABLE `products` (
 INSERT INTO `products` (`id`, `name`, `image`, `description`, `price`, `category`) VALUES
 (1, 'Cube Elite C:85X', 'images/cube.png', 'Muni d\'un cadre léger et de freins hydrauliques. Il associe efficacité et confort pour un parfait contrôle de vos mouvements.', 3500, 'Cube'),
 (2, 'Rockrider ST 520', 'images/rockrider.png', 'Pour pouvoir prendre plus de risques et toujours progresser, vous aurez besoin de contrôle. Conçu et approuvé le VTT ST 520 est celui qu\'il vous faut.', 300, 'Rockrider'),
-(3, 'Rocky Mountain Sherpa', 'images/rockymoutain.png', 'Le Sherpa permet de s\'attaquer à des terrains plus difficiles. Pour une route ambitieuse de l’arrière-pays qui ne vous avait encore jamais traversé l’esprit en termes de possibilités.', 4990, 'Rocky Mountain'),
-(4, 'Rocky Moutain Thunderbolt', 'images/rockymoutain2.png', 'Rapide et maniable, le Thunderbolt, c’est le coup de foudre assuré. Que vous aimiez gravir les montées techniques ou vous amuser avec tous les obstacles du sentier, ce vélo sera à la hauteur de votre créativité.', 6490, 'Rocky Mountain');
+(3, 'Rocky Mountain Sherpa', 'images/rockymoutain.png', 'Le Sherpa permet de s\'attaquer à des terrains plus difficiles. Pour une route ambitieuse de l’arrière-pays qui ne vous avait encore jamais traversé l’esprit en termes de possibilités.', 4990, 'RockyMountain'),
+(4, 'Rocky Moutain Thunderbolt', 'images/rockymoutain2.png', 'Rapide et maniable, le Thunderbolt, c’est le coup de foudre assuré. Que vous aimiez gravir les montées techniques ou vous amuser avec tous les obstacles du sentier, ce vélo sera à la hauteur de votre créativité.', 6490, 'RockyMountain');
 
 --
 -- Indexes for dumped tables
