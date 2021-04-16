@@ -9,6 +9,8 @@ Shopping product / cart with PHP
 * Bootstrap
 * JQuery
 * phpmyadmin
+* Ajax
+* SQL
 
 ## Fonctionnalités implémentées
 
@@ -24,7 +26,7 @@ Shopping product / cart with PHP
 * Ajuster le contenu responsif
 * Outil de recherche ?
 * Site mutlilangue : version anglaise
-* Partie admin
+* <del> Partie admin </del>
 
 ## Screens
 
